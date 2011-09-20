@@ -1,0 +1,14 @@
+<package>
+  <description brief="shop2">
+
+     shop2
+
+  </description>
+  <author>Daniel Di Marco</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/shop2</url>
+
+</package>
+
+
