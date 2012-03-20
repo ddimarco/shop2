@@ -10,7 +10,7 @@ include $(shell rospack find mk)/download_unpack_build.mk
 
 shop2: $(SOURCE_DIR)/unpacked
 	mkdir -p src
-	mv $(SOURCE_DIR)/* src/
+	cp -r $(SOURCE_DIR)/* src/
 
 clean:
 	-rm -rf src $(SOURCE_DIR) shop2
