@@ -15,10 +15,6 @@ unpacked: downloaded
 
 installed: unpacked
 	mkdir asdf
-	ln -s ../
-
-installed: unpacked
-	mkdir asdf
 	ln -s ../$(BASENAME)/shop2.asd asdf/shop2.asd
 	ln -s ../$(BASENAME)/shop-asd.asd asdf/shop-asd.asd
 	ln -s ../$(BASENAME)/shop2-common.asd asdf/shop2-common.asd
